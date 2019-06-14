@@ -5,11 +5,11 @@ The plugin is also compatible with `gulp-sourcemaps` and has support for dynamic
 
 ## Installation
 ```shell
-npm install --save-dev gulp-webpack-test
+npm install --save-dev gulp-webpack-bundler
 ```
 or
 ```shell
-npm i -D gulp-webpack-test
+npm i -D gulp-webpack-bundler
 ```
 
 ## Using the plugin
