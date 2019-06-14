@@ -1,0 +1,58 @@
+{
+  "name": "gulp-webpack-bundler",
+  "description": "A Gulp plugin that allows you to bundle your files with webpack after applying transformations.",
+  "version": "1.0.0",
+
+  "readme": "readme.md",
+  "homepage": "https://www.github.com/damianomagrini/gulp-webpack-bundler#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damianomagrini/gulp-webpack-bundler.git"
+  },
+  "bugs": {
+    "url": "https://www.github.com/damianomagrini/gulp-webpack-bundler/issues"
+  },
+
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "webpack",
+    "bundler"
+  ],
+
+  "author": "Damiano Magrini",
+  "license": "CC-BY-SA-4.0",
+
+
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+
+
+  "files": [
+    "src/",
+    "lib/",
+    "index.js",
+    "index.ts"
+  ],
+
+  "dependencies": {
+    "@types/gulp": "latest",
+    "@types/gulp-sourcemaps": "latest",
+    "@types/plugin-error": "latest",
+    "@types/through2": "latest",
+    "@types/vinyl": "latest",
+    "@types/webpack": "latest",
+    "plugin-error": "latest",
+    "source-map": "latest",
+    "source-map-loader": "latest",
+    "through2": "latest",
+    "ts-node": "latest",
+    "vinyl": "latest",
+    "webpack": "latest"
+  },
+
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}

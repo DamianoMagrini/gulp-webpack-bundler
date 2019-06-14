@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "gulp serve",
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-connect": "latest"
+  }
+}
