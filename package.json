@@ -1,7 +1,7 @@
 {
   "name": "gulp-webpack-bundler",
   "description": "A Gulp plugin that allows you to bundle your files with webpack after applying transformations.",
-  "version": "1.0.0",
+  "version": "1.0.1",
 
   "readme": "readme.md",
   "homepage": "https://www.github.com/damianomagrini/gulp-webpack-bundler#readme",
